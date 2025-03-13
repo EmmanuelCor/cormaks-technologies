@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cormaks Tech</title>
+    <style>
+        body {
+            background-color: #FFFDD0; /* Cream Background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #8B7500; /* Dark Gold */
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 50px 20px;
+            flex-wrap: wrap;
+            flex-grow: 1;
+        }
+
+        .service-card {
+            background: #D3D3D3; /* Greyish Box */
+            padding: 20px;
+            width: 300px; /* Fixed width */
+            height: 200px; /* Fixed height */
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        .service-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .airtime { color: blue; }
+        .automation { color: green; }
+        .bundles { color: black; }
+
+        .footer {
+            padding: 10px;
+            background-color: #8B7500;
+            color: white;
+            font-size: 14px;
+            margin-top: auto;
+        }
+
+        .service-card a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Welcome to Cormaks Tech</div>
+
+    <div class="services">
+        <div class="service-card">
+            <a href="airtime.html">
+                <div class="service-title airtime">Airtime Conversion</div>
+                <p>Convert your airtime to cash instantly.</p>
+            </a>
+        </div>
+
+        <div class="service-card">
+            |<a href="businessautomation.html">
+            <div class="service-title automation">Business Automation</div>
+            <p>Automate your business operations with ease.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-title bundles">Bundles Delivery</div>
+            <p>Get fast and affordable data bundles.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2025 Cormaks Tech. All rights reserved.
+    </div>
+
+</body>
+</html>
